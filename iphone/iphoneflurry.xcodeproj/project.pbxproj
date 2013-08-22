@@ -30,6 +30,7 @@
 		24DE9E1211C5FE74003F90F6 /* SgFlurryModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* SgFlurryModuleAssets.m */; };
 		AA747D9F0F9514B9006C5449 /* SgFlurry_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* SgFlurry_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		BF09F70E17C682E50052386A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF09F70D17C682E50052386A /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,17 +44,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F0FABF3142634E7009EF183 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = ../../../../../System/Library/Frameworks/CoreLocation.framework; sourceTree = "<group>"; };
-		1F0FABF7142635F8009EF183 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = ../../../../../System/Library/Frameworks/CoreLocation.framework; sourceTree = "<group>"; };
+		1F0FABF3142634E7009EF183 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = /Users/tludikar/Documents/Titanium_Studio_Workspace/titanium_flurry/iphone/../../../../../System/Library/Frameworks/CoreLocation.framework; sourceTree = "<absolute>"; };
+		1F0FABF7142635F8009EF183 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = /Users/tludikar/Documents/Titanium_Studio_Workspace/titanium_flurry/iphone/../../../../../System/Library/Frameworks/CoreLocation.framework; sourceTree = "<absolute>"; };
 		1F575A71171C9122002A4915 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
 		1F575A72171C9122002A4915 /* libFlurry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry.a; sourceTree = "<group>"; };
 		24DD6CF71134B3F500162E58 /* SgFlurryModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SgFlurryModule.h; path = Classes/SgFlurryModule.h; sourceTree = "<group>"; };
 		24DD6CF81134B3F500162E58 /* SgFlurryModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SgFlurryModule.m; path = Classes/SgFlurryModule.m; sourceTree = "<group>"; };
-		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = titanium.xcconfig; path = /Users/tludikar/Documents/titanium_flurry/iphone/titanium.xcconfig; sourceTree = "<absolute>"; };
 		24DE9E0F11C5FE74003F90F6 /* SgFlurryModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SgFlurryModuleAssets.h; path = Classes/SgFlurryModuleAssets.h; sourceTree = "<group>"; };
 		24DE9E1011C5FE74003F90F6 /* SgFlurryModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SgFlurryModuleAssets.m; path = Classes/SgFlurryModuleAssets.m; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* SgFlurry_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SgFlurry_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF09F70D17C682E50052386A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libSgFlurry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSgFlurry.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF09F70E17C682E50052386A /* SystemConfiguration.framework in Frameworks */,
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
 				1F575A74171C9122002A4915 /* libFlurry.a in Frameworks */,
 			);
@@ -95,6 +98,7 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BF09F70D17C682E50052386A /* SystemConfiguration.framework */,
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
 			);
 			name = Frameworks;
