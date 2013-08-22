@@ -32,6 +32,7 @@
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		BF09F70E17C682E50052386A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF09F70D17C682E50052386A /* SystemConfiguration.framework */; };
 		BF09F71017C6843B0052386A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF09F70F17C6843B0052386A /* Security.framework */; };
+		BF09F71217C688C60052386A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF09F71117C688C60052386A /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +46,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F0FABF3142634E7009EF183 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = /Users/tludikar/Documents/Titanium_Studio_Workspace/titanium_flurry/iphone/../../../../../System/Library/Frameworks/CoreLocation.framework; sourceTree = "<absolute>"; };
-		1F0FABF7142635F8009EF183 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = /Users/tludikar/Documents/Titanium_Studio_Workspace/titanium_flurry/iphone/../../../../../System/Library/Frameworks/CoreLocation.framework; sourceTree = "<absolute>"; };
 		1F575A71171C9122002A4915 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
 		1F575A72171C9122002A4915 /* libFlurry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry.a; sourceTree = "<group>"; };
 		24DD6CF71134B3F500162E58 /* SgFlurryModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SgFlurryModule.h; path = Classes/SgFlurryModule.h; sourceTree = "<group>"; };
@@ -58,6 +57,7 @@
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BF09F70D17C682E50052386A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		BF09F70F17C6843B0052386A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BF09F71117C688C60052386A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libSgFlurry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSgFlurry.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -66,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF09F71217C688C60052386A /* CoreLocation.framework in Frameworks */,
 				BF09F71017C6843B0052386A /* Security.framework in Frameworks */,
 				BF09F70E17C682E50052386A /* SystemConfiguration.framework in Frameworks */,
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
@@ -88,8 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				1F575A70171C9122002A4915 /* Flurry */,
-				1F0FABF7142635F8009EF183 /* CoreLocation.framework */,
-				1F0FABF3142634E7009EF183 /* CoreLocation.framework */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
@@ -101,6 +100,7 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BF09F71117C688C60052386A /* CoreLocation.framework */,
 				BF09F70F17C6843B0052386A /* Security.framework */,
 				BF09F70D17C682E50052386A /* SystemConfiguration.framework */,
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
