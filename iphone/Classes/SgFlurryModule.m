@@ -21,7 +21,8 @@
 	// you *must* call the superclass
 	[super startup];
 	
-	NSLog(@"[INFO] %@ loaded",self);
+//	NSLog(@"[INFO] %@ loaded",self);
+    NSLog(@"[INFO] Flurry Analytics SDK 4.2.3 module by Soft Gravity loaded", self);
 }
 
 -(void)shutdown:(id)sender
