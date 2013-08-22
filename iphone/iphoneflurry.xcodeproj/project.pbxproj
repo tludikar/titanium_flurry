@@ -33,6 +33,7 @@
 		BF09F70E17C682E50052386A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF09F70D17C682E50052386A /* SystemConfiguration.framework */; };
 		BF09F71017C6843B0052386A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF09F70F17C6843B0052386A /* Security.framework */; };
 		BF09F71217C688C60052386A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF09F71117C688C60052386A /* CoreLocation.framework */; };
+		BF09F71417C696CA0052386A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF09F71317C696CA0052386A /* AdSupport.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		BF09F70D17C682E50052386A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		BF09F70F17C6843B0052386A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		BF09F71117C688C60052386A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BF09F71317C696CA0052386A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libSgFlurry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSgFlurry.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -66,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF09F71417C696CA0052386A /* AdSupport.framework in Frameworks */,
 				BF09F71217C688C60052386A /* CoreLocation.framework in Frameworks */,
 				BF09F71017C6843B0052386A /* Security.framework in Frameworks */,
 				BF09F70E17C682E50052386A /* SystemConfiguration.framework in Frameworks */,
@@ -100,6 +103,7 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BF09F71317C696CA0052386A /* AdSupport.framework */,
 				BF09F71117C688C60052386A /* CoreLocation.framework */,
 				BF09F70F17C6843B0052386A /* Security.framework */,
 				BF09F70D17C682E50052386A /* SystemConfiguration.framework */,
